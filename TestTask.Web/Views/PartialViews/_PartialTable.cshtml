@@ -1,0 +1,31 @@
+﻿<div class="col-sm-12 row">
+    <span class="col-sm-3">отобразить на странице: </span>
+    <select id="RowCount" class="form-control"></select>
+</div>
+<div>
+    <span class="col-sm-3 divBlock" id="GeneralCnt">Всего записей: </span>
+    <table id="GenerealTable" class="table">
+        <tr>
+            <td>порядковый номер</td>
+            <td>код</td>
+            <td>значение</td>
+        </tr>
+    </table>
+</div>
+
+
+
+<div>
+    <hr />
+    <footer class="container body-content divBlock">
+        <nav aria-label="...">
+            <ul class="pagination liListPages">
+                <li class="page-item"><a class="page-link" href="java:void(0)" tabindex="-1" id="refStart" onclick="GetFirstPage()">В начало</a></li>
+                <li class="page-item"><a class="page-link" href="java:void(0)" id="refPrevious" onclick="GetPrePage()">Назад</a></li>
+                <li class="page-item"><a class="page-link" href="java:void(0)" id="refCurrent">1</a></li>
+                <li class="page-item"><a class="page-link" href="java:void(0)" id="refNext" onclick="GetNextPage()">Вперед</a></li>
+                <li class="page-item"><a class="page-link" href="java:void(0)" id="refFinish" onclick="GetLastPage()">В конец</a></li>
+            </ul>
+        </nav>
+    </footer>
+</div>

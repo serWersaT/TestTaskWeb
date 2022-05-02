@@ -1,0 +1,19 @@
+﻿@{
+}
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="row divBlock">
+    <button class="btn btn-default col-sm-3" onclick="VisibleNewObjects()">Добавить объект</button>
+</div>
+
+<div id="divGetNewObj" class="GetObject divBlock" style="display:none"></div>
+<div id="divGetTable" class="GetTable divBlock">
+    <div class="row form-control">
+        <span class="form-control">Отобразить на странице: </span>
+        <select id="RowCount" class="form-control"></select>
+    </div>
+    <span id="cntRow" class="form-control" onchange="GetGeneralTable()">Всего записей: </span>
+</div>
